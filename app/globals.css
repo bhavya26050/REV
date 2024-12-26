@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  background: rgb(2,0,36);
+  background: -moz-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,74,122,1) 5%, rgba(15,15,66,1) 32%, rgba(55,55,55,1) 66%, rgba(82,54,54,1) 87%, rgba(0,0,0,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,74,122,1) 5%, rgba(15,15,66,1) 32%, rgba(55,55,55,1) 66%, rgba(82,54,54,1) 87%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(74,74,122,1) 5%, rgba(15,15,66,1) 32%, rgba(55,55,55,1) 66%, rgba(82,54,54,1) 87%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#000000",GradientType=1);
+  }
+
+  .typing-animation {
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    width: 0; /* Start with width 0 */
+    animation: typing 5s ease-out forwards; /* Removed blink */
+  }
+  
+  /* Smooth typing animation with ease-out */
+  @keyframes typing {
+    0% { width: 0; }
+    100% {
+      width: 100%;
+      border-right: none; /* Remove the line at the end */
+    }
+  }
+  .hover\:scale-105 {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+  }
+  @media (min-width: 768px) {
+    .grid-cols-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media (min-width: 1024px) {
+    .grid-cols-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+    
+  
+  
+  .explore-container {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(74, 74, 122, 1) 5%,
+      rgba(15, 15, 66, 1) 32%,
+      rgba(55, 55, 55, 1) 66%,
+      rgba(82, 54, 54, 1) 87%,
+      rgba(0, 0, 0, 1) 100%
+    );
+    color: white;
+  }
+  
