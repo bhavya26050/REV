@@ -284,6 +284,8 @@ const Landing = () => {
           </div>
         </div>
       </section>
+
+
       <Footer />
     </div>
   );
